@@ -2,4 +2,9 @@
   <!--com.tridiumuniversity.userserviceview.ux-->
   <type class="com.tridiumuniversity.userserviceview.ux.BUserServiceViewJsBuild" name="UserServiceViewJsBuild"/>
   <type class="com.tridiumuniversity.userserviceview.ux.BUserServiceViewCssResource" name="UserServiceViewCssResource"/>
+  <type class="com.tridiumuniversity.userserviceview.ux.BCustomUserServiceView" name="CustomUserServiceView">
+    <agent>
+      <on type="baja:UserService"/>
+    </agent>
+  </type>
 </types>
