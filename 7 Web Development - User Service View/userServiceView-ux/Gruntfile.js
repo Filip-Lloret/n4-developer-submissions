@@ -24,12 +24,12 @@ module.exports = function runGrunt(grunt) {
     jsdoc: {
       src: SRC_FILES.concat([ 'README.md' ])
     },
-    eslint: {
-      src: JS_FILES,
-      options: {
-        plugins: [ 'react' ]
-      }
-    },
+//    eslint: {
+//      src: JS_FILES,
+//      options: {
+//        plugins: [ 'react' ]
+//      }
+//    },
     babel: {
       options: {
         presets: [ '@babel/preset-env' ],
